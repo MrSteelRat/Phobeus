@@ -17,5 +17,14 @@ public:
 
 private:
     Ui::MainWindow *ui;
+
+    void CreateActions();
+    void createMenus();
+
+    QMenu *menuFile;
+    QMenu *menuEdit;
+    QMenu *menuView;
+    QMenu *menuTool;
+    QMenu *menuInfo;
 };
 #endif // MAINWINDOW_H
