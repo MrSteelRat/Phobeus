@@ -1,7 +1,9 @@
 #ifndef MAINWINDOW_H
 #define MAINWINDOW_H
 
+#include <QUrl>
 #include <QMainWindow>
+#include <QDesktopServices>
 
 QT_BEGIN_NAMESPACE
 namespace Ui { class MainWindow; }
@@ -16,7 +18,9 @@ public:
     ~MainWindow();
 
 private slots:
-    void on_actionAbout_triggered(bool checked);
+    void on_actionAbout_triggered();
+
+    void on_actionExit_triggered();
 
 private:
     Ui::MainWindow *ui;

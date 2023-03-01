@@ -14,8 +14,12 @@ MainWindow::~MainWindow()
 }
 
 
-void MainWindow::on_actionAbout_triggered(bool checked)
+void MainWindow::on_actionAbout_triggered()
 {
-
+    QDesktopServices::openUrl(QUrl("https://github.com/MrSteelRat/Phobeus", QUrl::TolerantMode));
 }
 
+void MainWindow::on_actionExit_triggered()
+{
+    close();
+}

@@ -27,6 +27,13 @@
     <property name="title">
      <string>File</string>
     </property>
+    <addaction name="actionOpen"/>
+    <addaction name="actionSave"/>
+    <addaction name="actionSave_as"/>
+    <addaction name="separator"/>
+    <addaction name="actionImport"/>
+    <addaction name="actionExport"/>
+    <addaction name="actionExit"/>
    </widget>
    <widget class="QMenu" name="menuEdit">
     <property name="title">
@@ -69,7 +76,7 @@
    <widget class="QMenu" name="menuInfo">
     <property name="geometry">
      <rect>
-      <x>433</x>
+      <x>491</x>
       <y>87</y>
       <width>96</width>
       <height>60</height>
@@ -84,6 +91,9 @@
     <property name="title">
      <string>Panel</string>
     </property>
+    <addaction name="actionTool_Panel"/>
+    <addaction name="actionProperty_panel"/>
+    <addaction name="actionBrowser_panel"/>
    </widget>
    <addaction name="menuFile"/>
    <addaction name="menuEdit"/>
@@ -151,6 +161,51 @@
   <action name="actionAbout">
    <property name="text">
     <string>About</string>
+   </property>
+  </action>
+  <action name="actionOpen">
+   <property name="text">
+    <string>Open</string>
+   </property>
+  </action>
+  <action name="actionSave">
+   <property name="text">
+    <string>Save</string>
+   </property>
+  </action>
+  <action name="actionSave_as">
+   <property name="text">
+    <string>Save as</string>
+   </property>
+  </action>
+  <action name="actionImport">
+   <property name="text">
+    <string>Import</string>
+   </property>
+  </action>
+  <action name="actionExport">
+   <property name="text">
+    <string>Export</string>
+   </property>
+  </action>
+  <action name="actionExit">
+   <property name="text">
+    <string>Exit</string>
+   </property>
+  </action>
+  <action name="actionTool_Panel">
+   <property name="text">
+    <string>Tool Panel</string>
+   </property>
+  </action>
+  <action name="actionProperty_panel">
+   <property name="text">
+    <string>Property panel</string>
+   </property>
+  </action>
+  <action name="actionBrowser_panel">
+   <property name="text">
+    <string>Browser panel</string>
    </property>
   </action>
  </widget>
