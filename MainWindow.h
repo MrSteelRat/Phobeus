@@ -1,6 +1,7 @@
 #ifndef MAINWINDOW_H
 #define MAINWINDOW_H
 
+#include <QFileDialog>
 #include <QMainWindow>
 #include <QActionGroup>
 #include <QVBoxLayout>
@@ -22,6 +23,8 @@ public:
 
 private slots:
     void on_actionExit_triggered();
+
+    void on_actionOpen_triggered();
 
 private:
     Ui::MainWindow *ui;
