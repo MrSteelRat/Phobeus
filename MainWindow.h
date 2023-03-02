@@ -1,13 +1,9 @@
 #ifndef MAINWINDOW_H
 #define MAINWINDOW_H
 
-#include <QFileDialog>
+#include <QUrl>
 #include <QMainWindow>
-#include <QActionGroup>
-#include <QVBoxLayout>
-#include <QWidget>
-#include <QAction>
-#include <QLabel>
+#include <QDesktopServices>
 
 QT_BEGIN_NAMESPACE
 namespace Ui { class MainWindow; }
@@ -22,9 +18,12 @@ public:
     ~MainWindow();
 
 private slots:
-    void on_actionExit_triggered();
 
     void on_actionOpen_triggered();
+
+    void on_actionAbout_triggered();
+
+    void on_actionExit_triggered();
 
 private:
     Ui::MainWindow *ui;
