@@ -14,7 +14,7 @@
    <string>MainWindow</string>
   </property>
   <widget class="QWidget" name="centralwidget"/>
-  <widget class="QMenuBar" name="menubar">
+  <widget class="QMenuBar" name="menuBar">
    <property name="geometry">
     <rect>
      <x>0</x>
@@ -78,8 +78,8 @@
      <rect>
       <x>491</x>
       <y>87</y>
-      <width>96</width>
-      <height>60</height>
+      <width>156</width>
+      <height>75</height>
      </rect>
     </property>
     <property name="title">
