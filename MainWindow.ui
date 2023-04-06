@@ -34,6 +34,7 @@
     <addaction name="actionImport"/>
     <addaction name="actionExport"/>
     <addaction name="actionExit"/>
+    <addaction name="actionStableDiffsion_AI"/>
    </widget>
    <widget class="QMenu" name="menuEdit">
     <property name="title">
@@ -206,6 +207,11 @@
   <action name="actionBrowser_panel">
    <property name="text">
     <string>Browser panel</string>
+   </property>
+  </action>
+  <action name="actionStableDiffsion_AI">
+   <property name="text">
+    <string>StableDiffsion(AI)</string>
    </property>
   </action>
  </widget>

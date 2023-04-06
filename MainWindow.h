@@ -2,6 +2,8 @@
 #define MAINWINDOW_H
 
 #include <QMainWindow>
+#include <QLabel>
+
 
 QT_BEGIN_NAMESPACE
 namespace Ui { class MainWindow; }
@@ -23,7 +25,10 @@ private slots:
 
     void on_actionExit_triggered();
 
+    void on_actionStableDiffsion_AI_triggered();
+
 private:
     Ui::MainWindow *ui;
+    QLabel* imageLabel;
 };
 #endif // MAINWINDOW_H
