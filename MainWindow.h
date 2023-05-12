@@ -3,6 +3,15 @@
 
 #include <QMainWindow>
 #include <QLabel>
+#include <QDesktopServices>
+#include <QFileDialog>
+#include <QUrl>
+#include <QLabel>
+#include <QMessageBox>
+#include <QProcess>
+#include <QDebug>
+#include <QCoreApplication>
+#include <QPixmap>
 
 
 QT_BEGIN_NAMESPACE

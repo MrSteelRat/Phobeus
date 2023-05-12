@@ -1,13 +1,3 @@
-#include <QDesktopServices>
-#include <QFileDialog>
-#include <QUrl>
-#include <QLabel>
-#include <QMessageBox>
-#include <QProcess>
-#include <opencv4/opencv2/opencv.hpp>
-#include <QDebug>
-#include <QCoreApplication>
-#include <QPixmap>
 
 #include "MainWindow.h"
 #include "ui_MainWindow.h"
