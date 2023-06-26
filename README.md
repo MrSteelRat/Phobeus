@@ -1,4 +1,4 @@
-#Phobeus
+Phobeus
 Phobeus is an image viewer that reads image files and displays them to the user. It currently supports reading the following image formats: *.png, *.xpm, and *.jpg. In the future, more formats will be added for reading and editing images.
 
 #Installation
